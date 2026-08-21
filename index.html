@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luchmee | IT & Product Design Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">Luchmee</div>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span style="color: var(--accent);">Luchmee</span> 👋</h1>
+          <p>Information Technology student at Siam University. I bridge user experience and data systems by crafting product designs in Figma and building analytics dashboards with SQL & Power BI.</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="Luchmee_Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <img src="My-Resume-Img.png" alt="Luchmee Portrait">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: DATA ANALYTICS / POWER BI -->
+        <div class="project-card">
+          <img src="Student-Performance-Dashboard.png" alt="Student Performance Dashboard" style="width: 100%; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+          <div>
+            <h3 class="project-title">Student Performance Dashboard</h3>
+            <p class="project-desc">Interactive Power BI dashboard analyzing academic and demographic records to surface performance trends and student risk groups.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/luchmee-lab/Student-Performance-Analysis" target="_blank">View Dashboard →</a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: FIGMA / UX UI CASE STUDY -->
+        <div class="project-card">
+          <img src="LocalVibe-Home.png" alt="LocalVibe UX/UI Prototype Preview" style="width: 100%; border-radius: 8px; margin-bottom: 1rem;"> 
+          <div>
+            <h3 class="project-title">Local Vibe Booking Platform</h3>
+            <p class="project-desc">Designed an intuitive UI booking flow in Figma and developed the normalized MySQL backend and web interface.</p>
+            <div class="tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Product Design</span>
+              <span class="tag">User Experience (UX)</span>
+              <span class="tag">Interactive Prototyping</span>
+              <span class="tag">Design System</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://www.figma.com/proto/B6AzisGIdNWHJpcSe1E4Ce/LocalVibe---UX-UI?node-id=1002-7&t=W361sMmn8Svx3QHZ-1" target="_blank">Figma Prototype →</a>
+            <a href="https://github.com/luchmee-lab" target="_blank">GitHub →</a>
+          </div>
+        </div>
+
+        
+
+        <!-- PROJECT 3: SAAS DESIGN SYSTEM -->
+        <div class="project-card">
+          <img src="SaaS Analytics.png" alt="MetricPulse SaaS Dashboard Preview" style="width: 100%; border-radius: 8px; margin-bottom: 1rem;">
+          <div>
+            <h3 class="project-title">MetricPulse — SaaS Analytics & Merchant Dashboard</h3>
+            <p class="project-desc">A centralized B2B SaaS dashboard system featuring interactive KPI analytics, customer ledgers, transaction tables, and a fully linked 5-screen desktop prototype.</p>
+            <div class="tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI/UX Design</span>
+              <span class="tag">Design System</span>
+              <span class="tag">Interactive Prototype</span>
+              <span class="tag">Auto Layout</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://www.figma.com/design/oaeXWQ6hZrK7s6bgL1r4Vu/MetricPulse---SaaS-Design-System?node-id=1-2&t=4HNzBqHtvMQSG5mG-0" target="_blank">View Prototype →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2 class="section-title">Technical & Design Stack</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-category">
+          <h3>Data & Analytics</h3>
+          <ul>
+            <li>SQL / MySQL (Relational Modeling)</li>
+            <li>Power BI (DAX, Power Query)</li>
+            <li>Microsoft Excel (Advanced)</li>
+            <li>Data Transformation & ETL</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>UX/UI & Design</h3>
+          <ul>
+            <li>Figma (Auto Layout, Tokens)</li>
+            <li>User Flow Mapping</li>
+            <li>Interactive Prototyping</li>
+            <li>Design Systems & Components</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript (DOM, ES6)</li>
+            <li>Python (Scripting & Pandas)</li>
+            <li>Git & GitHub Version Control</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">I am currently seeking internship opportunities in Data Analytics,and UX/Product Design.</p>
+
+      <form class="contact-form" action="https://formsubmit.co/luchmee279@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <div class="cta-buttons" style="margin-top: 1.5rem;">
+        <a href="https://www.linkedin.com/in/luch-mee/" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+        <a href="https://github.com/luchmee-lab" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Luchmee • Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
