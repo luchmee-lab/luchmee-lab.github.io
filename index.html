@@ -22,13 +22,13 @@
   </nav>
 
   <div class="container">
-    
+
     <!-- HERO SECTION -->
     <section class="hero">
       <div class="hero-content">
         <div class="hero-text">
           <h1>Hi, I'm <span style="color: var(--accent);">Luchmee</span> 👋</h1>
-          <p>Information Technology student at Siam University. I bridge user experience and data systems by crafting product designs in Figma and building analytics dashboards with SQL & Power BI.</p>
+          <p>Information Technology student at Siam University. I bridge user experience and data systems by crafting product designs in Figma and building analytics dashboards with SQL & Power BI.Currently seeking internship opportunities in Data Analytics or UX/Product Design.</p>
           <div class="cta-buttons">
             <a href="#projects" class="btn btn-primary">View My Work</a>
             <a href="Luchmee_Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
@@ -46,14 +46,54 @@
     <!-- PROJECTS SECTION -->
     <section id="projects">
       <h2 class="section-title">Featured Projects</h2>
+
+      <!-- DATA ANALYTICS GROUP -->
+      <h3 class="subsection-title">📊 Data Analytics</h3>
       <div class="projects-grid">
 
-        <!-- PROJECT 1: DATA ANALYTICS / POWER BI -->
+        <!-- Telecom Customer Churn Analysis -->
         <div class="project-card">
-          <img src="Images/Student-Performance-Dashboard.png" alt="Student Performance Dashboard" style="width: 100%; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+          <img src="Images/Telecom-Customer-Dashboard.png" alt="Telecom Customer Churn Dashboard Preview">
           <div>
-            <h3 class="project-title">Student Performance Dashboard</h3>
-            <p class="project-desc">Interactive Power BI dashboard analyzing academic and demographic records to surface performance trends and student risk groups.</p>
+            <h3 class="project-title">Telecom Customer Churn Analysis & Retention Dashboard</h3>
+            <p class="project-desc">Built an end-to-end Power BI dashboard analyzing customer churn using the IBM Telco dataset, cleaning data with Python and modeling it in Power Query. Identified key churn drivers — including a 42%+ churn rate among month-to-month contracts — and delivered executive-level retention recommendations.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/luchmee-lab/Telco-customer-churn-dashboard" target="_blank">View On Github →</a>
+          </div>
+        </div>
+
+        <!-- E-commerce Sales Performance Dashboard -->
+        <div class="project-card">
+          <img src="Images/E-commerce-Dashboard.png" alt="E-commerce Sales Performance Dashboard Preview">
+          <div>
+            <h3 class="project-title">E-commerce Sales Performance Dashboard</h3>
+            <p class="project-desc">Built an interactive Power BI dashboard analyzing $2.26M in sales across 5K orders, using DAX and filtering to break down performance by region, category, and segment. Translated findings into business recommendations, including inventory planning and improved segment targeting.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Business Intelligence</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/luchmee-lab/E-commerce-Performance-Dashboard" target="_blank">View On Github →</a>
+          </div>
+        </div>
+
+        <!-- Student Performance Analysis Dashboard -->
+        <div class="project-card">
+          <img src="Images/Student-Performance-Dashboard.png" alt="Student Performance Dashboard Preview">
+          <div>
+            <h3 class="project-title">Student Performance Analysis Dashboard</h3>
+            <p class="project-desc">Built a Power BI dashboard analyzing academic and attendance trends using Power Query for data cleaning and DAX for custom measures. Uncovered patterns such as higher absence rates among students whose parents live apart.</p>
             <div class="tags">
               <span class="tag">Power BI</span>
               <span class="tag">DAX</span>
@@ -62,22 +102,45 @@
             </div>
           </div>
           <div class="project-links">
-            <a href="https://github.com/luchmee-lab/Student-Performance-Analysis" target="_blank">View Dashboard →</a>
+            <a href="https://github.com/luchmee-lab/Student-Performance-Analysis" target="_blank">View On Github →</a>
           </div>
         </div>
 
-        <!-- PROJECT 2: FIGMA / UX UI CASE STUDY -->
+        <!-- Pizza Sales Performance Dashboard -->
         <div class="project-card">
-          <img src="Images/LocalVibe-Home.png" alt="LocalVibe UX/UI Prototype Preview" style="width: 100%; border-radius: 8px; margin-bottom: 1rem;"> 
+          <img src="Images/Pizza_sales_Dashboard.png" alt="Pizza Sales Dashboard Preview">
           <div>
-            <h3 class="project-title">Local Vibe Booking Platform</h3>
-            <p class="project-desc">Designed an intuitive UI booking flow in Figma and developed the normalized MySQL backend and web interface.</p>
+            <h3 class="project-title">Pizza Sales Performance Dashboard</h3>
+            <p class="project-desc">Built an interactive Power BI dashboard analyzing 21K+ orders and $817K in revenue, following a guided project to practice core dashboarding skills. Extended it independently by adding custom slicers for category and size.</p>
+            <div class="tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Excel</span>
+              <span class="tag">Data Visualization</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/luchmee-lab/Pizza-Sales-Performance-Dashboard" target="_blank">View On Github →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PRODUCT & UX DESIGN GROUP -->
+      <h3 class="subsection-title">🎨 Product & UX Design</h3>
+      <div class="projects-grid">
+
+        <!-- LocalVibe -->
+        <div class="project-card">
+          <img src="Images/LocalVibe-Home.png" alt="LocalVibe UX/UI Prototype Preview">
+          <div>
+            <h3 class="project-title">LocalVibe — Full-Stack Travel Booking Platform</h3>
+            <p class="project-desc">Built a full-stack travel booking platform connecting travelers with local hosts, featuring JWT authentication, real-time availability tracking, and an AI travel assistant grounded in real platform data. Built with Node.js, Express, and MySQL, using AI-assisted development directed and tested throughout.</p>
             <div class="tags">
               <span class="tag">Figma</span>
-              <span class="tag">Product Design</span>
-              <span class="tag">User Experience (UX)</span>
-              <span class="tag">Interactive Prototyping</span>
-              <span class="tag">Design System</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Full-Stack Development</span>
             </div>
           </div>
           <div class="project-links">
@@ -85,14 +148,12 @@
           </div>
         </div>
 
-        
-
-        <!-- PROJECT 3: SAAS DESIGN SYSTEM -->
+        <!-- MetricPulse -->
         <div class="project-card">
-          <img src="Images/SaaS Analytics.png" alt="MetricPulse SaaS Dashboard Preview" style="width: 100%; border-radius: 8px; margin-bottom: 1rem;">
+          <img src="Images/SaaS Analytics.png" alt="MetricPulse SaaS Dashboard Preview">
           <div>
-            <h3 class="project-title">MetricPulse — SaaS Analytics & Merchant Dashboard</h3>
-            <p class="project-desc">A centralized B2B SaaS dashboard system featuring interactive KPI analytics, customer ledgers, transaction tables, and a fully linked 5-screen desktop prototype.</p>
+            <h3 class="project-title">MetricPulse — B2B SaaS Analytics Dashboard</h3>
+            <p class="project-desc">Designed a 5-screen UI/UX prototype for a B2B SaaS analytics product, covering dashboard, analytics, customer, transaction, and settings screens. Built a consistent design system using Figma Auto Layout and interactive prototyping.</p>
             <div class="tags">
               <span class="tag">Figma</span>
               <span class="tag">UI/UX Design</span>
@@ -113,13 +174,14 @@
     <section id="skills">
       <h2 class="section-title">Technical & Design Stack</h2>
       <div class="skills-grid">
-        
+
         <div class="skill-category">
           <h3>Data & Analytics</h3>
           <ul>
             <li>SQL / MySQL (Relational Modeling)</li>
             <li>Power BI (DAX, Power Query)</li>
             <li>Microsoft Excel (Advanced)</li>
+            <li>Python (Pandas — Data Cleaning)</li>
             <li>Data Transformation & ETL</li>
           </ul>
         </div>
@@ -139,7 +201,6 @@
           <ul>
             <li>HTML5 / CSS3</li>
             <li>JavaScript (DOM, ES6)</li>
-            <li>Python (Scripting & Pandas)</li>
             <li>Git & GitHub Version Control</li>
           </ul>
         </div>
@@ -150,7 +211,7 @@
     <!-- CONTACT SECTION -->
     <section id="contact">
       <h2 class="section-title">Get In Touch</h2>
-      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">I am currently seeking internship opportunities in Data Analytics, and UX/Product Design.</p>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">I am currently seeking internship opportunities in Data Analytics and UX/Product Design.</p>
 
       <form class="contact-form" action="https://formsubmit.co/luchmee279@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="New Portfolio Contact Message">
